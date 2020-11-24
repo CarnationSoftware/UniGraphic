@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UniGraphic示例：编辑器</title>
+    <link rel="stylesheet" href="../../UniGraphic/css/UniGraphic.min.css?v=9b8666f97eafdd8a0ece353bfb0b82d0">
+    <link rel="stylesheet" href="../../UniTree/css/UniTree.min.css">    <style>
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+        }
+        #tree {
+            position: relative;
+            z-index: 100;
+            width: 250px;
+            height: 100%;
+            float: left;
+            background:rgba(243,243,243,1);
+            box-shadow:1px 6px 17px 2px rgba(0, 0, 0, 0.2);
+            overflow: auto;
+        }
+        #chart {
+            position: relative;
+            margin-left: 250px;
+            height: 100%;
+        }
+        .item {
+            padding: 10px;
+            user-select: none;
+        }
+        .item img {
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <div id="tree">
+        <div id="UniTree"></div>
+    </div>
+    <div id="chart"></div>
+    <script src="../../UniGraphic/js/UniGraphic.all.min.js?v=166e36ff45a97d57fdac22bdfc4b6cb6"></script>
+    <script src="../../UniTree/js/UniPage.js"></script>
+    <script src="../../UniTree/js/UniTree.js"></script>
+    <script src="../js/editor.js"></script>
+</body>
+</html>
