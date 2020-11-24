@@ -26,4 +26,4 @@ const chart = new UniGraphic({
 ```javascript
 chart.setOption(options);
 ```
-详细配置可查看文档里setOption方法的参数说明
+详细配置可查看文档里setOption方法的[参数说明](https://carnationsoftware.gitee.io/unigraphic/doc/UniGraphic.html#setOption)
