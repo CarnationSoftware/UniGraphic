@@ -38,7 +38,7 @@
     
     <input type="text" id="nav-search" placeholder="Search" />
     
-    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="UniGraphic.html">UniGraphic</a><ul class='methods'><li data-type='method' style='display: none;'><a href="UniGraphic.html#.config">config</a></li><li data-type='method' style='display: none;'><a href="UniGraphic.html#addDragSource">addDragSource</a></li><li data-type='method' style='display: none;'><a href="UniGraphic.html#addFoldable">addFoldable</a></li><li data-type='method' style='display: none;'><a href="UniGraphic.html#cacheData">cacheData</a></li><li data-type='method' style='display: none;'><a href="UniGraphic.html#getData">getData</a></li><li data-type='method' style='display: none;'><a href="UniGraphic.html#getSelectedCells">getSelectedCells</a></li><li data-type='method' style='display: none;'><a href="UniGraphic.html#setChildren">setChildren</a></li><li data-type='method' style='display: none;'><a href="UniGraphic.html#setData">setData</a></li><li data-type='method' style='display: none;'><a href="UniGraphic.html#setDetail">setDetail</a></li><li data-type='method' style='display: none;'><a href="UniGraphic.html#setOption">setOption</a></li><li data-type='method' style='display: none;'><a href="UniGraphic.html#updateData">updateData</a></li></ul></li></ul>
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="UniGraphic.html">UniGraphic</a><ul class='methods'><li data-type='method' style='display: none;'><a href="UniGraphic.html#.config">config</a></li><li data-type='method' style='display: none;'><a href="UniGraphic.html#addDragSource">addDragSource</a></li><li data-type='method' style='display: none;'><a href="UniGraphic.html#addFoldable">addFoldable</a></li><li data-type='method' style='display: none;'><a href="UniGraphic.html#cacheData">cacheData</a></li><li data-type='method' style='display: none;'><a href="UniGraphic.html#getData">getData</a></li><li data-type='method' style='display: none;'><a href="UniGraphic.html#getPosition">getPosition</a></li><li data-type='method' style='display: none;'><a href="UniGraphic.html#getSelectedCells">getSelectedCells</a></li><li data-type='method' style='display: none;'><a href="UniGraphic.html#setChildren">setChildren</a></li><li data-type='method' style='display: none;'><a href="UniGraphic.html#setData">setData</a></li><li data-type='method' style='display: none;'><a href="UniGraphic.html#setDetail">setDetail</a></li><li data-type='method' style='display: none;'><a href="UniGraphic.html#setOption">setOption</a></li><li data-type='method' style='display: none;'><a href="UniGraphic.html#updateData">updateData</a></li></ul></li></ul>
 </nav>
 
 <div id="main">
@@ -2108,7 +2108,7 @@
 
     
 
-    <h4 class="name" id="getData"><span class="type-signature"></span>getData<span class="signature">(cacheId<span class="signature-attributes">opt</span>)</span><span class="type-signature"></span></h4>
+    <h4 class="name" id="getData"><span class="type-signature"></span>getData<span class="signature">(cacheId<span class="signature-attributes">opt</span>, options<span class="signature-attributes">opt</span>)</span><span class="type-signature"></span></h4>
 
     
 
@@ -2222,6 +2222,219 @@
             
 
             <td class="description last"><p>缓存对应的ID</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>options</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">object</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last">
+                <h6>Properties</h6>
+                
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>position</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">boolean</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>获取位置</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+            </td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="getPosition"><span class="type-signature"></span>getPosition<span class="signature">(id)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>获取节点位置</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>id</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>节点ID</p></td>
         </tr>
 
     
@@ -5315,6 +5528,41 @@ table/view/interface/task/sql/statement/kpi/quota/product/system/scheme/standard
 
         <tr>
             
+                <td class="name"><code>position</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Array.&lt;number></span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"><p>节点位置[x, y]，当使用sugiyama布局算法时才生效</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
                 <td class="name"><code>isCenter</code></td>
             
 
@@ -5746,6 +5994,133 @@ table/view/interface/task/sql/statement/kpi/quota/product/system/scheme/standard
             
 
             <td class="description last"><p>图标</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>border</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">object</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>底部边框</p>
+                <h6>Properties</h6>
+                
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>lineWidth</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>线宽</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>stroke</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>颜色</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+            </td>
         </tr>
 
     
@@ -9536,7 +9911,7 @@ _type_为连线的类型：default、circulation、inclusion等等自定义即�
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.6</a> on Fri Oct 23 2020 13:45:07 GMT+0800 (GMT+08:00) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.6</a> on Thu Nov 26 2020 15:14:21 GMT+0800 (中国标准时间) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
 </footer>
 
 <script>prettyPrint();</script>
