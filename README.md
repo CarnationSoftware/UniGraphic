@@ -37,7 +37,7 @@ chart.setOption(options);
 ```
 详细配置可查看文档里setOption方法的[参数说明](https://carnationsoftware.gitee.io/unigraphic/doc/UniGraphic.html#setOption)
 
-## 例子
+## 实例
 
 ###### 网格布局（场景：数据地图）
 ![alt datamap](https://carnationsoftware.gitee.io/unigraphic/demo/img/datamap-0.png)
@@ -50,3 +50,13 @@ chart.setOption(options);
 
 ###### 模型设计
 ![alt model](https://carnationsoftware.gitee.io/unigraphic/demo/img/table-0.png)
+
+## Demo
+
+[数据地图在线演示](https://carnationsoftware.gitee.io/unigraphic/demo/html/datamap.html?random=1&scale=1&nodeLen=6&lineLen=4)
+
+## 商用
+
+带石竹水印的版本可免费供个人或企业学习交流演示使用，如需商用，请直接联系我们并获取授权。
+
+未获得本司商业授权，不得将UniGraphic用于任何商业用途。任何未经官方授权而将UniGraphic用于商业用途的行为，都将被视为侵权并追究相应法律责任。
