@@ -93,7 +93,7 @@
           // sourceFoldable: true,
           // 节点名称每行最大展示数，超出则换行
           titleStyle: {
-            width: '15em' // average: true,
+            width: '20em' // average: true,
             // align: 'right',
 
           },
@@ -141,6 +141,7 @@
           },
           // lineType: 'bezierCurve',
           // arrowType: ['diamond', 'sharpArrow'],
+          // arrowType: 'none',
           isResizable: false,
           inAndOut: ['left', 'right'] // ['left', 'right']
 
@@ -270,7 +271,7 @@
             buttons: [{
               name: '确定',
               callback: function callback(values) {
-                var data = zrender.util.clone(options.data.nodes);
+                var data = UniUtil.clone(options.data.nodes);
                 data.forEach(function (node) {
                   node.normal.title = '';
 
@@ -468,7 +469,9 @@
       });
     }
 
-    chart.setOption(options);
+    chart.setOption(options); // 隐藏加载中
+
+    UniUtil.showLoading(false);
   } else {
     // 对数据进行进一步处理
     var fixData = function fixData(data) {
