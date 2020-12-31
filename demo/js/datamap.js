@@ -47,6 +47,8 @@
       // 自动获取图例
       position: 'right,top',
       // 显示位置
+      // rowCount: 6, // 每行数量
+      // height: 300, // 高度
       data: [{
         title: '表',
         icon: chart.imgCached.table,
@@ -85,6 +87,10 @@
       // direction: 'left2right',
       // 单击延迟时间，以便等待双击，并阻断单击的触发
       clickDelay: 0,
+      // 连线方式， 可选'drag' 'click'
+      lineDrawingMode: 'drag',
+      // 连线之间的间距，设置为0则相同关系的连线将重叠为1条线
+      // lineSpace: 3,
       // 节点配置
       node: {
         // 应用到全部节点
@@ -127,6 +133,7 @@
           style: {
             line: {
               stroke: '#999',
+              // lineDash: [4],
               linewidth: 1
             },
             highLine: {
@@ -141,7 +148,7 @@
           },
           // lineType: 'bezierCurve',
           // arrowType: ['diamond', 'sharpArrow'],
-          // arrowType: 'none',
+          // arrowType: 'sharpArrow', // taperedArrow、heavyArrow、sharpArrow
           isResizable: false,
           inAndOut: ['left', 'right'] // ['left', 'right']
 

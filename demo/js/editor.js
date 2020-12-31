@@ -701,6 +701,7 @@
           lines: [{
             source: dragdomArr[0].id,
             target: options.data.nodes[0].id,
+            id: "".concat(dragdomArr[0].id, "-").concat(options.data.nodes[0].id),
             data: {
               name: '接口',
               description: '这是描述'
@@ -710,6 +711,7 @@
           }, {
             source: "".concat(dragdomArr[1].id),
             target: "".concat(dragdomArr[2].id),
+            id: "".concat(dragdomArr[1].id, "-").concat(dragdomArr[2].id),
             data: {
               name: '接口',
               description: '这是描述'

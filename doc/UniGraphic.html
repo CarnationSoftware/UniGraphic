@@ -2511,7 +2511,7 @@
 
 
 <div class="description usertext">
-    <p>拿到所有选中的cell</p>
+    <p>获取所有被选中的cell</p>
 </div>
 
 
@@ -3819,6 +3819,84 @@
 
         <tr>
             
+                <td class="name"><code>rowCount</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>3</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>每行数量</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>height</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>220</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>高度</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
                 <td class="name"><code>data</code></td>
             
 
@@ -4119,7 +4197,7 @@
                 </td>
             
 
-            <td class="description last"><p>样式，属性为canvas原生样式</p></td>
+            <td class="description last"><p>样式，属性为css原生样式</p></td>
         </tr>
 
     
@@ -5247,6 +5325,80 @@ save[成功后需要返回id, 以及instanceId]、connect[连线, type, id是必
 
         <tr>
             
+                <td class="name"><code>id</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"><p>ID</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>type</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"><p>类型</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
                 <td class="name"><code>isSelected</code></td>
             
 
@@ -5791,6 +5943,43 @@ table/view/interface/task/sql/statement/kpi/quota/product/system/scheme/standard
 </table>
 
             </td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>showDetail</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">boolean</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"><p>是否展开节点详情 true 展开</p></td>
         </tr>
 
     
@@ -6830,6 +7019,45 @@ table/view/interface/task/sql/statement/kpi/quota/product/system/scheme/standard
 
         <tr>
             
+                <td class="name"><code>isUnderPushable</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">boolean</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>true</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>显示详情时，自动推开被压的节点</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
                 <td class="name"><code>centerFold</code></td>
             
 
@@ -6904,13 +7132,13 @@ table/view/interface/task/sql/statement/kpi/quota/product/system/scheme/standard
 
         <tr>
             
-                <td class="name"><code>lineDrawingMode</code></td>
+                <td class="name"><code>lineSpace</code></td>
             
 
             <td class="type">
             
                 
-<span class="param-type">string</span>
+<span class="param-type">number</span>
 
 
             
@@ -6931,12 +7159,10 @@ table/view/interface/task/sql/statement/kpi/quota/product/system/scheme/standard
             
                 <td class="default">
                 
-                    <code>'drag'</code>
-                
                 </td>
             
 
-            <td class="description last"><p>连线方式， 可选'drag' 'click'</p></td>
+            <td class="description last"><p>连线之间的间距，设置为0则相同关系的连线将重叠为1条线</p></td>
         </tr>
 
     
@@ -7031,12 +7257,53 @@ table/view/interface/task/sql/statement/kpi/quota/product/system/scheme/standard
         
 
         
+        <th>Default</th>
+        
 
         <th class="last">Description</th>
     </tr>
     </thead>
 
     <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>draw</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>'drag'</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>连线方式， 可选'drag' 'click'</p></td>
+        </tr>
+
     
 
         <tr>
@@ -7065,6 +7332,10 @@ table/view/interface/task/sql/statement/kpi/quota/product/system/scheme/standard
                 </td>
             
 
+            
+                <td class="default">
+                
+                </td>
             
 
             <td class="description last"><p>连线的配置，<br>
@@ -9704,6 +9975,39 @@ _type_为连线的类型：default、circulation、inclusion等等自定义即�
         </tr>
 
     
+
+        <tr>
+            
+                <td class="name"><code>color</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>颜色，默认为：#000000</p></td>
+        </tr>
+
+    
     </tbody>
 </table>
 
@@ -9911,7 +10215,7 @@ _type_为连线的类型：default、circulation、inclusion等等自定义即�
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.6</a> on Thu Nov 26 2020 15:14:21 GMT+0800 (中国标准时间) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.6</a> on Thu Dec 31 2020 11:23:01 GMT+0800 (中国标准时间) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
 </footer>
 
 <script>prettyPrint();</script>
