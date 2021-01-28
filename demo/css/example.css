@@ -1,0 +1,106 @@
+aside {
+  position: fixed;
+  z-index: 3;
+  top: 50px;
+  left: 0;
+  bottom: 0;
+  width: 218px;
+  background: transparent url(../img/bg-menu.png) right center no-repeat;
+  background-size: cover;
+  color: #a2b2c4;
+}
+aside a {
+  display: block;
+  color: #a2b2c4;
+  padding: 20px 20px 20px 40px;
+}
+aside > nav {
+  width: 200px;
+}
+aside > nav nav a::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  background: #a2b2c4;
+  margin: 0 12px 0 6px;
+}
+aside .item:hover,
+aside .item.active {
+  background: rgba(74, 74, 74, 0.35);
+  color: #fff;
+}
+aside .item:hover::before,
+aside .item.active::before {
+  background: #fff;
+}
+aside .item .item {
+  font-size: 14px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+aside .item .item:hover,
+aside .item .item.active {
+  background: rgba(95, 95, 95, 0.35);
+}
+.demo {
+  position: fixed;
+  z-index: 2;
+  top: 50px;
+  left: 200px;
+  bottom: 0;
+  right: 0;
+  background: #fff;
+}
+.demo iframe {
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+.demo .code {
+  position: absolute;
+  top: 66px;
+  right: 20px;
+  width: 102px;
+  height: 29px;
+  line-height: 29px;
+  background: #595857;
+  border-radius: 4px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+}
+.demo .code svg,
+.demo .code span {
+  vertical-align: middle;
+}
+.demo .code-view {
+  position: absolute;
+  top: 0;
+  right: -650px;
+  bottom: 0;
+  width: 600px;
+  background: #fff;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+.demo .code-view.active {
+  opacity: 1;
+  right: 0;
+}
+.demo .code-view .close {
+  position: absolute;
+  background: #1e1e1e;
+  color: #d4d4d4;
+  left: -28px;
+  top: 6px;
+  padding: 0 10px;
+  height: 30px;
+  line-height: 30px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  cursor: pointer;
+}

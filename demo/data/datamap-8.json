@@ -1,0 +1,119 @@
+{
+    "nodes": [
+        {
+            "type": "product",
+            "isGroup": true,
+            "id": 1001,
+            "normal": {
+                "title": "产品1",
+                "enName": "产品1"
+            },
+            "detail": {
+                "title": "产品1的系统",
+                "children": {
+                    "nodes": [
+                        {
+                            "type": "system",
+                            "isGroup": true,
+                            "id": 2001,
+                            "normal": {
+                                "title": "系统1"
+                            },
+                            "detail": {
+                                "title": "系统1的Schema",
+                                "children": {
+                                    "nodes": [
+                                        {
+                                            "type": "schema",
+                                            "isGroup": true,
+                                            "id": 3001,
+                                            "normal": {
+                                                "title": "Schema1"
+                                            },
+                                            "detail": {
+                                                "title": "Schema1的模型",
+                                                "load": "datamap-0"
+                                            }
+                                        },
+                                        {
+                                            "type": "schema",
+                                            "isGroup": true,
+                                            "id": 3002,
+                                            "normal": {
+                                                "title": "Schema2"
+                                            },
+                                            "detail": {
+                                                "title": "Schema2的模型",
+                                                "load": "datamap-1"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "type": "system",
+                            "isGroup": true,
+                            "id": 2002,
+                            "normal": {
+                                "title": "系统2"
+                            }
+                        }
+                    ],
+                    "lines": [
+                        {
+                            "source": 2001,
+                            "target": 2002
+                        },
+                        {
+                            "source": 2002,
+                            "target": 2101
+                        },
+                        {
+                            "source": 2002,
+                            "target": 1002
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "product",
+            "isGroup": true,
+            "id": 1002,
+            "normal": {
+                "title": "产品2",
+                "enName": "产品2"
+            },
+            "detail": {
+                "title": "产品2的系统",
+                "children": {
+                    "nodes": [
+                        {
+                            "type": "system",
+                            "isGroup": true,
+                            "id": 2101,
+                            "normal": {
+                                "title": "2系统1"
+                            }
+                        },
+                        {
+                            "type": "system",
+                            "isGroup": true,
+                            "id": 2102,
+                            "normal": {
+                                "title": "2系统2"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "lines": [
+        {
+            "source": 1001,
+            "target": 1002
+        }
+    ]
+}

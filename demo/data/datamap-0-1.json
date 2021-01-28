@@ -1,0 +1,954 @@
+{
+	"nodes": [{
+		"type": "table",
+		"id": "node-12",
+		"normal": {
+			"title": "APPLICATION_ACCESS",
+			"icon": null,
+			"schema": "ODS_USER",
+			"zhName": "应用管理表",
+			"enName": "APPLICATION_ACCESS"
+		},
+		"isCenter": true,
+		"detail": {
+			"title": "Detail: APPLICATION_ACCESS",
+			"color": "#FF7667",
+			"items": [{
+				"title": "ACCESS_DATE",
+				"icon": null,
+				"id": "node-12-0"
+			}, {
+				"title": "ACCESS_NUM",
+				"icon": null,
+				"id": "node-12-1"
+			}, {
+				"title": "APP_NAME",
+				"icon": null,
+				"id": "node-12-2"
+			}, {
+				"title": "ID",
+				"icon": null,
+				"id": "node-12-3"
+			}],
+			"lines": [{
+				"source": "node-12-1",
+				"target": "node-25-0"
+			}],
+			"menu": [{
+				"title": "提取"
+			}]
+		},
+		"tooltip": {
+			"content": "名称：APPLICATION_ACCESS\n数量：122\n时间：2020-02-20"
+		}
+	}, {
+		"type": "table",
+		"id": "node-13",
+		"normal": {
+			"title": "BASEINFO",
+			"icon": null,
+			"schema": "ODS_USER",
+			"zhName": "投资组合基本信息表",
+			"enName": "BASEINFO"
+		},
+		"detail": {
+			"title": "Detail: BASEINFO",
+			"color": "#FF7667",
+			"items": [{
+				"title": "ETL_DATE",
+				"icon": null,
+				"id": "node-13-0"
+			}, {
+				"title": "ETL_TIME",
+				"icon": null,
+				"id": "node-13-1"
+			}, {
+				"title": "FACCTLEN",
+				"icon": null,
+				"id": "node-13-2"
+			}, {
+				"title": "FCODE",
+				"icon": null,
+				"id": "node-13-3"
+			}, {
+				"title": "FILE_NAME",
+				"icon": null,
+				"id": "node-13-4"
+			}, {
+				"title": "FJFRI",
+				"icon": null,
+				"id": "node-13-5"
+			}, {
+				"title": "FJJCLDATE",
+				"icon": null,
+				"id": "node-13-6"
+			}, {
+				"title": "FJJDQDATE",
+				"icon": null,
+				"id": "node-13-7"
+			}, {
+				"title": "FJJGLREN",
+				"icon": null,
+				"id": "node-13-8"
+			}, {
+				"title": "FJJGLRFV",
+				"icon": null,
+				"id": "node-13-9"
+			}, {
+				"title": "FJJLB",
+				"icon": null,
+				"id": "node-13-10"
+			}, {
+				"title": "FJJLX",
+				"icon": null,
+				"id": "node-13-11"
+			}, {
+				"title": "FJJTGREN",
+				"icon": null,
+				"id": "node-13-12"
+			}, {
+				"title": "FJJTGRFV",
+				"icon": null,
+				"id": "node-13-13"
+			}, {
+				"title": "FJJWTREN",
+				"icon": null,
+				"id": "node-13-14"
+			}, {
+				"title": "FJJXSRFV",
+				"icon": null,
+				"id": "node-13-15"
+			}, {
+				"title": "FJJZL",
+				"icon": null,
+				"id": "node-13-16"
+			}, {
+				"title": "FNAME",
+				"icon": null,
+				"id": "node-13-17"
+			}, {
+				"title": "FPJE",
+				"icon": null,
+				"id": "node-13-18"
+			}, {
+				"title": "FPJELJ",
+				"icon": null,
+				"id": "node-13-19"
+			}, {
+				"title": "FQCJZ",
+				"icon": null,
+				"id": "node-13-20"
+			}, {
+				"title": "FTAMS",
+				"icon": null,
+				"id": "node-13-21"
+			}, {
+				"title": "FZHGLR",
+				"icon": null,
+				"id": "node-13-22"
+					}],
+			"lines": [{
+				"source": "node-13-19",
+				"target": "node-26-0"
+			}],
+			"menu": [{
+				"title": "提取"
+			}]
+		},
+		"tooltip": {
+			"content": "名称：BASEINFO\n数量：122\n时间：2020-02-20"
+		}
+	}, {
+		"type": "table",
+		"id": "node-14",
+		"normal": {
+			"title": "BONDINFO",
+			"icon": null,
+			"schema": "ODS_USER",
+			"zhName": "债券基本信息表",
+			"enName": "BONDINFO"
+		},
+		"detail": {
+			"title": "Detail: BONDINFO",
+			"color": "#FF7667",
+			"items": [{
+				"title": "ETL_DATE",
+				"icon": null,
+				"id": "node-14-0"
+			}, {
+				"title": "ETL_TIME",
+				"icon": null,
+				"id": "node-14-1"
+			}, {
+				"title": "FCXJZR",
+				"icon": null,
+				"id": "node-14-2"
+			}, {
+				"title": "FCXQSR",
+				"icon": null,
+				"id": "node-14-3"
+			}, {
+				"title": "FFXCS",
+				"icon": null,
+				"id": "node-14-4"
+			}, {
+				"title": "FFXFS",
+				"icon": null,
+				"id": "node-14-5"
+			}, {
+				"title": "FFXJG",
+				"icon": null,
+				"id": "node-14-6"
+			}, {
+				"title": "FILE_NAME",
+				"icon": null,
+				"id": "node-14-7"
+			}, {
+				"title": "FJJDM",
+				"icon": null,
+				"id": "node-14-8"
+			}, {
+				"title": "FJXFS",
+				"icon": null,
+				"id": "node-14-9"
+			}, {
+				"title": "FJXJZR",
+				"icon": null,
+				"id": "node-14-10"
+			}, {
+				"title": "FJXQSR",
+				"icon": null,
+				"id": "node-14-11"
+			}, {
+				"title": "FLVLX",
+				"icon": null,
+				"id": "node-14-13"
+			}, {
+				"title": "FPMJE",
+				"icon": null,
+				"id": "node-14-14"
+			}, {
+				"title": "FPMLV",
+				"icon": null,
+				"id": "node-14-15"
+			}, {
+				"title": "FSCDM",
+				"icon": null,
+				"id": "node-14-16"
+			}, {
+				"title": "FSQPMLV",
+				"icon": null,
+				"id": "node-14-17"
+			}, {
+				"title": "FSSDD",
+				"icon": null,
+				"id": "node-14-18"
+			}, {
+				"title": "FZQDM",
+				"icon": null,
+				"id": "node-14-19"
+			}, {
+				"title": "FZQLB",
+				"icon": null,
+				"id": "node-14-20"
+			}, {
+				"title": "FZQMC",
+				"icon": null,
+				"id": "node-14-21"
+			}],
+			"lines": [],
+			"menu": [{
+				"title": "提取"
+			}]
+		},
+		"tooltip": {
+			"content": "名称：BONDINFO\n数量：122\n时间：2020-02-20"
+		}
+	}, {
+		"type": "table",
+		"id": "node-15",
+		"normal": {
+			"title": "CCM_EC_SHAREHOLDER_INFO_TEMP",
+			"icon": null,
+			"schema": "ODS_USER",
+			"zhName": "企业股东及出资信息表",
+			"enName": "CCM_EC_SHAREHOLDER_INFO_TEMP"
+		},
+		"detail": {
+			"title": "Detail: CCM_EC_SHAREHOLDER_INFO_TEMP",
+			"color": "#FF7667",
+			"items": [{
+				"title": "COMPANY_ID",
+				"icon": null,
+				"id": "node-15-0"
+			}, {
+				"title": "CONDATE",
+				"icon": null,
+				"id": "node-15-1"
+			}, {
+				"title": "CONFORM",
+				"icon": null,
+				"id": "node-15-2"
+			}, {
+				"title": "COUNTRY",
+				"icon": null,
+				"id": "node-15-3"
+			}, {
+				"title": "DATASRC",
+				"icon": null,
+				"id": "node-15-4"
+			}, {
+				"title": "FUNDEDRATIO",
+				"icon": null,
+				"id": "node-15-5"
+			}, {
+				"title": "INVTYPE",
+				"icon": null,
+				"id": "node-15-6"
+			}, {
+				"title": "LOADTIME",
+				"icon": null,
+				"id": "node-15-7"
+			}, {
+				"title": "REGCAPCUR",
+				"icon": null,
+				"id": "node-15-8"
+			}, {
+				"title": "SHAID",
+				"icon": null,
+				"id": "node-15-9"
+			}, {
+				"title": "SHANAME",
+				"icon": null,
+				"id": "node-15-10"
+			}, {
+				"title": "SUBCONAM",
+				"icon": null,
+				"id": "node-15-11"
+			}, {
+				"title": "UPDATETIME",
+				"icon": null,
+				"id": "node-15-12"
+			}, {
+				"title": "VALIDIND",
+				"icon": null,
+				"id": "node-15-13"
+			}],
+			"lines": [{
+				"source": "node-15-5",
+				"target": "node-27-0"
+			}],
+			"menu": [{
+				"title": "提取"
+			}]
+		},
+		"tooltip": {
+			"content": "名称：CCM_EC_SHAREHOLDER_INFO_TEMP \n数量：122\n时间：2020-02-20"
+		}
+	}, {
+		"type": "table",
+		"id": "node-16",
+		"normal": {
+			"title": "CCM_EC_SHAREHOLDER_INFO_TEMP",
+			"icon": null,
+			"schema": "ODS_USER",
+			"zhName": "企业股东及出资信息表",
+			"enName": "CCM_EC_SHAREHOLDER_INFO_TEMP"
+		},
+		"detail": {
+			"title": "Detail: CCM_EC_SHAREHOLDER_INFO_TEMP",
+			"color": "#FF7667",
+			"items": [{
+				"title": "COMPANY_ID",
+				"icon": null,
+				"id": "node-16-0"
+			}, {
+				"title": "CONDATE",
+				"icon": null,
+				"id": "node-16-1"
+			}, {
+				"title": "CONFORM",
+				"icon": null,
+				"id": "node-16-2"
+			}, {
+				"title": "COUNTRY",
+				"icon": null,
+				"id": "node-16-3"
+			}, {
+				"title": "DATASRC",
+				"icon": null,
+				"id": "node-16-4"
+			}, {
+				"title": "FUNDEDRATIO",
+				"icon": null,
+				"id": "node-16-5"
+			}, {
+				"title": "INVTYPE",
+				"icon": null,
+				"id": "node-16-6"
+			}, {
+				"title": "LOADTIME",
+				"icon": null,
+				"id": "node-16-7"
+			}, {
+				"title": "REGCAPCUR",
+				"icon": null,
+				"id": "node-16-8"
+			}, {
+				"title": "SHAID",
+				"icon": null,
+				"id": "node-16-9"
+			}, {
+				"title": "SHANAME",
+				"icon": null,
+				"id": "node-16-10"
+			}, {
+				"title": "SUBCONAM",
+				"icon": null,
+				"id": "node-16-11"
+			}, {
+				"title": "UPDATETIME",
+				"icon": null,
+				"id": "node-16-13"
+			}, {
+				"title": "VALIDIND",
+				"icon": null,
+				"id": "node-16-14"
+			}],
+			"lines": [{
+				"source": "node-16-10",
+				"target": "node-28-0"
+			}],
+			"menu": [{
+				"title": "提取"
+			}]
+		},
+		"tooltip": {
+			"content": "名称：BONDINFO\n数量：122\n时间：2020-02-20"
+		}
+	}, {
+		"type": "table",
+		"id": "node-17",
+		"normal": {
+			"title": "bas_chart",
+			"icon": null,
+			"schema": "MUTI",
+			"zhName": {},
+			"enName": "bas_chart"
+		},
+		"detail": {
+			"title": "Detail: bas_chart",
+			"color": "#FF7667",
+			"items": [{
+				"title": "chart_id",
+				"icon": null,
+				"id": "node-17-0"
+			}, {
+				"title": "chart_name",
+				"icon": null,
+				"id": "node-17-1"
+			}, {
+				"title": "chart_type_id",
+				"icon": null,
+				"id": "node-17-2"
+			}, {
+				"title": "create_user_id",
+				"icon": null,
+				"id": "node-17-3"
+			}, {
+				"title": "ctime",
+				"icon": null,
+				"id": "node-17-4"
+			}, {
+				"title": "invalid",
+				"icon": null,
+				"id": "node-17-5"
+			}, {
+				"title": "limit",
+				"icon": null,
+				"id": "node-17-6"
+			}, {
+				"title": "modify_user_id",
+				"icon": null,
+				"id": "node-17-7"
+			}, {
+				"title": "mtime",
+				"icon": null,
+				"id": "node-17-8"
+			}, {
+				"title": "source",
+				"icon": null,
+				"id": "node-17-9"
+			}, {
+				"title": "tenant_id",
+				"icon": null,
+				"id": "node-17-10"
+			}],
+			"lines": [{
+				"source": "node-17-6",
+				"target": "node-36-0"
+			}],
+			"menu": [{
+				"title": "提取"
+			}]
+		},
+		"tooltip": {
+			"content": "名称：bas_chart\n数量：122\n时间：2020-02-20"
+		}
+	}, {
+		"type": "table",
+		"id": "node-18",
+		"normal": {
+			"title": "rel_dash_chart",
+			"icon": null,
+			"schema": "MUTI",
+			"zhName": {},
+			"enName": "rel_dash_chart"
+		},
+		"detail": {
+			"title": "Detail: rel_dash_chart",
+			"color": "#FF7667",
+			"items": [{
+				"title": "chart_id",
+				"icon": null,
+				"id": "node-18-0"
+			}, {
+				"title": "create_user_id",
+				"icon": null,
+				"id": "node-18-1"
+			}, {
+				"title": "ctime",
+				"icon": null,
+				"id": "node-18-2"
+			}, {
+				"title": "dash_id",
+				"icon": null,
+				"id": "node-18-3"
+			}, {
+				"title": "invalid",
+				"icon": null,
+				"id": "node-18-4"
+			}, {
+				"title": "modify_user_id",
+				"icon": null,
+				"id": "node-18-5"
+			}, {
+				"title": "mtime",
+				"icon": null,
+				"id": "node-18-6"
+			}, {
+				"title": "rid",
+				"icon": null,
+				"id": "node-18-7"
+			}],
+			"lines": [{
+				"source": "node-3-3",
+				"target": "node-0-1"
+			}, {
+				"source": "node-3-4",
+				"target": "node-6-3"
+			}],
+			"menu": [{
+				"title": "提取"
+			}]
+		},
+		"tooltip": {
+			"content": "名称：rel_dash_chart\n数量：122\n时间：2020-02-20"
+		}
+	}, {
+		"type": "task",
+		"id": "node-25",
+		"normal": {
+			"title": "task7",
+			"icon": null,
+			"schema": {},
+			"zhName": "任务七",
+			"enName": "task7"
+		},
+		"detail": {
+			"title": "Detail: task7",
+			"color": "#47C5FD",
+			"items": [{
+				"title": "selcect Q insert R",
+				"icon": null,
+				"id": "node-25-0"
+			}],
+			"lines": [{
+				"source": "node-25-0",
+				"target": "node-13-19"
+			}, {
+				"source": "node-25-0",
+				"target": "node-14-16"
+			}],
+			"menu": [{
+				"title": "提取"
+			}]
+		},
+		"tooltip": {
+			"content": "名称：task7\n数量：122\n时间：2020-02-20"
+		}
+	}, {
+		"type": "task",
+		"id": "node-26",
+		"normal": {
+			"title": "task8",
+			"icon": null,
+			"schema": {},
+			"zhName": "任务八",
+			"enName": "task8"
+		},
+		"detail": {
+			"title": "Detail: task8",
+			"color": "#47C5FD",
+			"items": [{
+				"title": "selcect S insert T",
+				"icon": null,
+				"id": "node-26-0"
+			}],
+			"lines": [{
+				"source": "node-26-0",
+				"target": "node-15-5"
+			}, {
+				"source": "node-26-0",
+				"target": "node-16-10"
+			}],
+			"menu": [{
+				"title": "提取"
+			}]
+		},
+		"tooltip": {
+			"content": "名称：task8\n数量：122\n时间：2020-02-20"
+		}
+	}, {
+		"type": "task",
+		"id": "node-27",
+		"normal": {
+			"title": "task9",
+			"icon": null,
+			"schema": {},
+			"zhName": "任务九",
+			"enName": "task9"
+		},
+		"detail": {
+			"title": "Detail: task9",
+			"color": "#47C5FD",
+			"items": [{
+				"title": "selcect U insert V",
+				"icon": null,
+				"id": "node-27-0"
+			}],
+			"lines": [{
+				"source": "node-27-0",
+				"target": "node-17-6"
+			}, {
+				"source": "node-27-0",
+				"target": "node-18-4"
+			}],
+			"menu": [{
+				"title": "提取"
+			}]
+		},
+		"tooltip": {
+			"content": "名称：task9\n数量：122\n时间：2020-02-20"
+		}
+	}, {
+		"type": "task",
+		"id": "node-28",
+		"normal": {
+			"title": "task10",
+			"icon": null,
+			"schema": {},
+			"zhName": "任务十",
+			"enName": "task10"
+		},
+		"detail": {
+			"title": "Detail: task10",
+			"color": "#47C5FD",
+			"items": [{
+				"title": "selcect U insert V",
+				"icon": null,
+				"id": "node-28-0"
+			}],
+			"lines": [{
+				"source": "node-28-0",
+				"target": "node-30-10"
+			}],
+			"menu": [{
+				"title": "提取"
+			}]
+		},
+		"tooltip": {
+			"content": "名称：task10\n数量：122\n时间：2020-02-20"
+		}
+	}, {
+		"type": "task",
+		"id": "node-36",
+		"normal": {
+			"title": "task11",
+			"icon": null,
+			"schema": {},
+			"zhName": "任务十一",
+			"enName": "task11"
+		},
+		"detail": {
+			"title": "Detail: task11",
+			"color": "#47C5FD",
+			"items": [{
+				"title": "selcect X insert Y",
+				"icon": null,
+				"id": "node-36-0"
+			}],
+			"lines": [{
+				"source": "node-36-0",
+				"target": "node-29-2"
+			}],
+			"menu": [{
+				"title": "提取"
+			}]
+		},
+		"tooltip": {
+			"content": "名称：task11\n数量：122\n时间：2020-02-20"
+		}
+	}, {
+		"type": "statement",
+		"id": "node-29",
+		"normal": {
+			"title": "balance_sheets",
+			"icon": null,
+			"schema": "SAPT",
+			"zhName": "资产负债表",
+			"enName": "balance_sheet"
+		},
+		"detail": {
+			"title": "Detail: balance_sheet ",
+			"color": "#FBAA24",
+			"items": [{
+				"title": "current_assets",
+				"icon": null,
+				"id": "node-29-0"
+			}, {
+				"title": "current_assets",
+				"icon": null,
+				"id": "node-29-1"
+			}, {
+				"title": "Lendings_to_Banks_and_OtherFinancial_Institution",
+				"icon": null,
+				"id": "node-29-2"
+			}, {
+				"title": "Settlement_reserve_fund",
+				"icon": null,
+				"id": "node-29-3"
+			}, {
+				"title": "bill_receivables",
+				"icon": null,
+				"id": "node-29-4"
+			}, {
+				"title": "account_receivables",
+				"icon": null,
+				"id": "node-29-5"
+			}, {
+				"title": "prepayments",
+				"icon": null,
+				"id": "node-29-6"
+			}, {
+				"title": "receivable_premium",
+				"icon": null,
+				"id": "node-29-7"
+			}, {
+				"title": "accounts_receivablereinsurance",
+				"icon": null,
+				"id": "node-29-8"
+			}, {
+				"title": "Reinsurance_contract_reserve",
+				"icon": null,
+				"id": "node-29-9"
+			}, {
+				"title": "interest_receivables",
+				"icon": null,
+				"id": "node-29-10"
+					}],
+			"lines": [],
+			"menu": [{
+				"title": "提取"
+			}]
+		},
+		"tooltip": {
+			"content": "名称：balance_sheets\n数量：122\n时间：2020-02-20"
+		}
+	}, {
+		"type": "statement",
+		"id": "node-30",
+		"normal": {
+			"title": "cash_flow_statement",
+			"icon": null,
+			"schema": "SAPT",
+			"zhName": "现金流量表",
+			"enName": "cash_flow_statement"
+		},
+		"detail": {
+			"title": "Detail: cash_flow_statement",
+			"color": "#FBAA24",
+			"items": [{
+				"title": "cash_received_from_the_sale_of_goods_or_rendering_of_services",
+				"icon": null,
+				"id": "node-30-0"
+			}, {
+				"title": "refunds_of_taxes",
+				"icon": null,
+				"id": "node-30-1"
+			}, {
+				"title": "other_cash_receipts_relating_to_operating_activities",
+				"icon": null,
+				"id": "node-30-2"
+			}, {
+				"title": "sub_total_of_cash_inflows",
+				"icon": null,
+				"id": "node-30-3"
+			}, {
+				"title": "cash_paid_for_goods_and_services",
+				"icon": null,
+				"id": "node-30-4"
+			}, {
+				"title": "cash_paid_to_and_on_behalf_of_employees",
+				"icon": null,
+				"id": "node-30-5"
+			}, {
+				"title": "payments_of_all_types_of_taxes",
+				"icon": null,
+				"id": "node-29-6"
+			}, {
+				"title": "other_cash_payments_relating_to_operating_activities",
+				"icon": null,
+				"id": "node-30-7"
+			}, {
+				"title": "sub_total_of_cash_out_flows",
+				"icon": null,
+				"id": "node-30-8"
+			}, {
+				"title": "net_cash_flows_from_operating_activities",
+				"icon": null,
+				"id": "node-30-9"
+			}, {
+				"title": "cash_received_from_return_of_investments",
+				"icon": null,
+				"id": "node-30-10"
+					}],
+			"lines": [],
+			"menu": [{
+				"title": "提取"
+			}]
+		},
+		"tooltip": {
+			"content": "名称：cash_flow_statement\n数量：122\n时间：2020-02-20"
+		}
+	}],
+	"lines": [{
+		"source": "node-31",
+		"target": "node-0"
+	}, {
+		"source": "node-32",
+		"target": "node-1"
+	}, {
+		"source": "node-33",
+		"target": "node-2"
+	}, {
+		"source": "node-34",
+		"target": "node-7"
+	}, {
+		"source": "node-35",
+		"target": "node-8"
+	}, {
+		"source": "node-0",
+		"target": "node-19"
+	}, {
+		"source": "node-1",
+		"target": "node-19"
+	}, {
+		"source": "node-2",
+		"target": "node-19"
+	}, {
+		"source": "node-19",
+		"target": "node-3"
+	}, {
+		"source": "node-3",
+		"target": "node-20"
+	}, {
+		"source": "node-4",
+		"target": "node-20"
+	}, {
+		"source": "node-20",
+		"target": "node-5"
+	}, {
+		"source": "node-5",
+		"target": "node-21"
+	}, {
+		"source": "node-21",
+		"target": "node-6"
+	}, {
+		"source": "node-7",
+		"target": "node-22"
+	}, {
+		"source": "node-8",
+		"target": "node-22"
+	}, {
+		"source": "node-22",
+		"target": "node-9"
+	}, {
+		"source": "node-9",
+		"target": "node-23"
+	}, {
+		"source": "node-10",
+		"target": "node-23"
+	}, {
+		"source": "node-23",
+		"target": "node-11"
+	}, {
+		"source": "node-6",
+		"target": "node-24"
+	}, {
+		"source": "node-11",
+		"target": "node-24"
+	}, {
+		"source": "node-24",
+		"target": "node-12"
+	}, {
+		"source": "node-12",
+		"target": "node-25"
+	}, {
+		"source": "node-25",
+		"target": "node-13"
+	}, {
+		"source": "node-25",
+		"target": "node-14"
+	}, {
+		"source": "node-13",
+		"target": "node-26"
+	}, {
+		"source": "node-26",
+		"target": "node-15"
+	}, {
+		"source": "node-15",
+		"target": "node-27"
+	}, {
+		"source": "node-27",
+		"target": "node-17"
+	}, {
+		"source": "node-27",
+		"target": "node-18"
+	}, {
+		"source": "node-17",
+		"target": "node-36"
+	}, {
+		"source": "node-36",
+		"target": "node-29"
+	}, {
+		"source": "node-26",
+		"target": "node-16"
+	}, {
+		"source": "node-16",
+		"target": "node-28"
+	}, {
+		"source": "node-28",
+		"target": "node-30"
+	}]
+}

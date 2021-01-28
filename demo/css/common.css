@@ -1,0 +1,105 @@
+@font-face {
+  font-family: 'Helvetica';
+  src: url('../plus/Helvetica/Helvetica.eot');
+  src: url('../plus/Helvetica/Helvetica.woff') format('woff'), url('../plus/Helvetica/Helvetica.ttf') format('truetype'), url('../plus/Helvetica/Helvetica.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceHanSansCN-Regular";
+  src: url("../plus/SourceHanSansCN/SourceHanSansCN-Regular.woff2") format("woff2"), url("../plus/SourceHanSansCN/SourceHanSansCN-Regular.woff") format("woff"), url("../plus/SourceHanSansCN/SourceHanSansCN-Regular.ttf") format("truetype"), url("../plus/SourceHanSansCN/SourceHanSansCN-Regular.eot") format("embedded-opentype"), url("../plus/SourceHanSansCN/SourceHanSansCN-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica, 'SourceHanSansCN-Regular', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+header {
+  height: 50px;
+  line-height: 50px;
+  min-width: 1200px;
+  background: #040404;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+header nav {
+  display: inline-block;
+  white-space: nowrap;
+  font-size: 0;
+  vertical-align: top;
+}
+header nav a {
+  display: inline-block;
+  height: 100%;
+  padding: 0 20px;
+  font-size: 14px;
+  color: #fff;
+}
+header nav a:hover,
+header nav a.active {
+  background: #3E3E3E;
+}
+header .logo {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 50px 0 25px;
+  font-size: 0;
+}
+header .logo img {
+  vertical-align: top;
+  margin-top: 14px;
+}
+.header-fix {
+  height: 50px;
+}
+footer {
+  background: #14222F;
+  color: #7C90A3;
+  font-size: 14px;
+}
+footer h3 {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+footer p:empty {
+  height: 1em;
+}
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  padding: 50px 0;
+}
+.footer-info .footer-col {
+  width: 168px;
+}
+.footer-declare {
+  text-align: center;
+  padding: 15px 0;
+}
+.footer-declare span,
+.footer-declare img {
+  margin: 0 10px;
+  vertical-align: middle;
+}
+.container {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+}

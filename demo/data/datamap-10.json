@@ -1,0 +1,146 @@
+{
+    "nodes": [
+        {
+            "type": "datasource",
+            "id": "datasource1",
+            "targetFoldable": false,
+            "normal": {
+                "title": "datasource1"
+            }
+        },
+        {
+            "type": "interface",
+            "id": "interface1",
+            "targetFoldable": false,
+            "normal": {
+                "title": "interface1"
+            }
+        },
+        {
+            "type": "interface",
+            "id": "interface2",
+            "targetFoldable": false,
+            "normal": {
+                "title": "interface2"
+            }
+        },
+        {
+            "type": "interface",
+            "id": "interface3",
+            "targetFoldable": false,
+            "normal": {
+                "title": "interface3"
+            }
+        },
+        {
+            "type": "table",
+            "id": "table1",
+            "targetFoldable": false,
+            "normal": {
+                "title": "table1"
+            }
+        },
+        {
+            "type": "task",
+            "id": "task1",
+            "targetFoldable": false,
+            "normal": {
+                "title": "task1"
+            }
+        },
+        {
+            "type": "statement",
+            "id": "statement1",
+            "targetFoldable": false,
+            "normal": {
+                "title": "statement1"
+            }
+        },
+        {
+            "type": "statement",
+            "id": "statement2",
+            "targetFoldable": false,
+            "normal": {
+                "title": "statement2"
+            }
+        },
+        {
+            "type": "sheet",
+            "id": "sheet1",
+            "targetFoldable": false,
+            "normal": {
+                "title": "sheet1"
+            }
+        },
+        {
+            "type": "term",
+            "id": "term1",
+            "targetFoldable": false,
+            "normal": {
+                "title": "term1"
+            }
+        },
+        {
+            "type": "term",
+            "id": "term2",
+            "targetFoldable": false,
+            "normal": {
+                "title": "term2"
+            }
+        }
+    ],
+    "lines": [
+        {
+            "source": "datasource1",
+            "target": "interface1"
+        },
+        {
+            "source": "datasource1",
+            "target": "interface2"
+        },
+        {
+            "source": "datasource1",
+            "target": "interface3"
+        },
+        {
+            "source": "interface1",
+            "target": "table1"
+        },
+        {
+            "source": "interface2",
+            "target": "table1"
+        },
+        {
+            "source": "interface3",
+            "target": "table1"
+        },
+        {
+            "source": "table1",
+            "target": "task1"
+        },
+        {
+            "source": "task1",
+            "target": "statement1"
+        },
+        {
+            "source": "task1",
+            "target": "statement2"
+        },
+        {
+            "source": "statement1",
+            "target": "sheet1"
+        },
+        {
+            "source": "statement2",
+            "target": "sheet1"
+        },
+        {
+            "source": "sheet1",
+            "target": "term1"
+        },
+        {
+            "source": "sheet1",
+            "target": "term2"
+        }
+    ]
+}

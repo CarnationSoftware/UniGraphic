@@ -120,7 +120,9 @@
           },
           // 节点展开详情最大展示行数（超过会出现滚动条）
           detail: {
-            maxLines: 5
+            maxLines: 5 // width: 200, // 宽度
+            // lineHeight: 30, // 行高
+
           },
           // 最大列数，仅当没有连线关系时生效
           maxColumn: 5 // 悬停显示详情的触发时间（毫秒）
@@ -494,7 +496,7 @@
 
             node.detail.load = function (n, cb) {
               UniUtil.ajax({
-                url: "/data/".concat(filename, ".json")
+                url: "../data/".concat(filename, ".json")
               }).then(function (res) {
                 fixData(res);
                 cb({
@@ -506,6 +508,12 @@
 
           if (node.detail.children && node.detail.children.nodes instanceof Array) {
             node.detail.children.nodes.forEach(checkDetailChildren);
+          }
+
+          if (node.detail.lines instanceof Array) {
+            node.detail.lines.forEach(function (l) {
+              l.lineType = 'straight';
+            });
           }
         }
       };
@@ -565,7 +573,7 @@
 
 
     UniUtil.ajax({
-      url: "/data/".concat(urlQuery.file || 'datamap-0', ".json")
+      url: "../data/".concat(urlQuery.file || 'datamap-0', ".json")
     }).then(function (data) {
       fixData(data);
       Object.assign(options.data, data);

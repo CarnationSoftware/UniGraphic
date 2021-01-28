@@ -1,0 +1,119 @@
+{
+    "nodes": [
+        {
+            "type": "table",
+            "id": 101,
+            "normal": {
+                "title": "101"
+            }
+        },
+        {
+            "type": "table",
+            "id": 102,
+            "normal": {
+                "title": "102"
+            }
+        },
+        {
+            "type": "table",
+            "id": 103,
+            "normal": {
+                "title": "103"
+            }
+        },
+        {
+            "type": "table",
+            "id": 104,
+            "normal": {
+                "title": "104"
+            }
+        },
+        {
+            "type": "table",
+            "id": 201,
+            "normal": {
+                "title": "201"
+            }
+        },
+        {
+            "type": "table",
+            "id": 202,
+            "normal": {
+                "title": "202"
+            }
+        },
+        {
+            "type": "table",
+            "id": 203,
+            "normal": {
+                "title": "203"
+            }
+        },
+        {
+            "type": "table",
+            "id": 204,
+            "normal": {
+                "title": "204"
+            }
+        },
+        {
+            "type": "table",
+            "id": 205,
+            "normal": {
+                "title": "205"
+            }
+        }
+    ],
+    "lines": [
+        {
+            "source": 101,
+            "target": 102
+        },
+        {
+            "source": 102,
+            "target": 103
+        },
+        {
+            "source": 103,
+            "target": 104
+        },
+        {
+            "source": 201,
+            "target": 202
+        },
+        {
+            "source": 201,
+            "target": 205,
+            "style": {
+                "line": {
+                    "stroke": "#f00"
+                },
+                "arrow": {
+                    "fill": "#f00",
+                    "stroke": "#f00"
+                }
+            }
+        },
+        {
+            "source": 202,
+            "target": 203
+        },
+        {
+            "source": 205,
+            "target": 203,
+            "style": {
+                "line": {
+                    "stroke": "#f00"
+                },
+                "arrow": {
+                    "fill": "#f00",
+                    "stroke": "#f00"
+                }
+            }
+        },
+        {
+            "source": 203,
+            "target": 204
+        }
+    ]
+}

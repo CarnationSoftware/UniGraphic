@@ -1,7 +1,12 @@
 "use strict";
 
 (function () {
-  // 实例UniGraphic
+  if (typeof UniTree === 'undefined') {
+    document.querySelector('#tree').style.display = 'none';
+    document.querySelector('#chart').style.marginLeft = 0;
+  } // 实例UniGraphic
+
+
   var chart = new UniGraphic({
     graph: document.querySelector('#chart')
   });
@@ -133,7 +138,7 @@
       isHighlightRelated: false,
       // 连线
       line: {
-        draw: 'click',
+        draw: 'drag',
         // 连线配置,defalut,circulation, inclusion等等自定义配置即可。
         // 该配置在工具栏toolbar数据中的连线功能中引用（338行、343行），
         // 设定连线时的样式、回调、修改、编辑、查看方法）。名字可以自定义，保证定义和引入时统一即可。
@@ -621,7 +626,8 @@
         // 是否可编辑、删除
         isEditable: false,
         isDeletable: false,
-        type: 'default'
+        type: 'default',
+        lineType: 'straight'
       });
     }
   } // 渲染画布模拟数据
@@ -636,11 +642,15 @@
    * options2 数据树的模拟数据
    */
 
+  if (typeof UniTree === 'undefined') {
+    throw new Error('UniTree is needed.');
+  }
+
   var baseSrc = '../../UniTree/img/tree-'; // 图片路径
 
   var iconArr = ['dir', 'view', 'table']; // 图片名称
 
-  var treeLazy = new UniTree(document.getElementById('UniTree'));
+  var treeLazy = new UniTree(document.getElementById('tree-main'));
 
   function randomStr() {
     var len = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 8;
@@ -759,7 +769,7 @@
     load: function load(node, callback) {
       // 异步加载数据
       UniUtil.ajax({
-        url: '/data/lazytree-0.json'
+        url: '../data/lazytree-0.json'
       }).then(function (data) {
         var result = []; // 如果节点数据中存在分页信息，需要获取指定分页的数据信息；如果没有，默认获取第一页
 

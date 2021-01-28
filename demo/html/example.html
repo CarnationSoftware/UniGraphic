@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/common.css">
+    <title>UniGraphic - 示例</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/example.css">
+</head>
+<body>
+    <header>
+        <a class="logo" href="../html/index.html">
+            <img src="../img/logo.png" title="UniGraphic">
+        </a>
+        <nav>
+            <a href="../html/index.html">首页</a>
+            <a href="../html/doc.html">文档</a>
+            <a href="../html/example.html" class="active">示例</a>
+            <a href="../html/download.html">下载</a>
+        </nav>
+    </header>
+    <aside>
+        <nav class="menu">
+            <div class="item group active">
+                <a class="title">数据地图</a>
+                <nav>
+                    <a class="item" href="../html/simple.html" target="demo">基础版</a>
+                    <a class="item" href="../html/datamap.html?file=datamap-0-0&scale=0.8&direction=right2left" target="demo">血统图</a>
+                    <a class="item" href="../html/datamap.html?file=datamap-0-1&scale=0.8" target="demo">影响图</a>
+                    <a class="item active" href="../html/datamap.html?file=datamap-0&scale=1" target="demo">数据地图</a>
+                </nav>
+            </div>
+            <a class="item" href="../html/datamap.html?file=datamap-8&scale=1" target="demo">全局视图</a>
+            <a class="item" href="../html/editor.html" target="demo">关系维护</a>
+            <a class="item" href="../html/datamap.html?file=datamap-9&scale=1" target="demo">差异分析</a>
+            <a class="item" href="../html/datamap.html?file=datamap-7&scale=1&layout=tree&lineType=bezierCurve&nodeMarginBottom=20&nodeMarginRight=250&scale=0.6" target="demo">知识图谱</a>
+        </nav>
+    </aside>
+    <section class="demo">
+        <div class="code" data-source="../es/datamap.js">
+            <svg t="1611639355658" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="10621" width="20" height="20"><path d="M305.6 225.6c-17.6-17.6-43.2-17.6-59.2 0L19.2 460.8c-25.6 30.4-25.6 72 0 97.6l225.6 235.2c8 8 20.8 12.8 30.4 12.8s20.8-4.8 30.4-12.8c17.6-17.6 17.6-43.2 0-59.2L88 512l217.6-225.6c17.6-17.6 17.6-43.2 0-60.8zM1001.6 460.8L774.4 225.6c-17.6-17.6-43.2-17.6-59.2 0s-17.6 43.2 0 59.2L932.8 512 715.2 737.6c-17.6 17.6-17.6 43.2 0 59.2 8 8 17.6 12.8 30.4 12.8 12.8 0 20.8-4.8 30.4-12.8l225.6-235.2c28.8-28.8 28.8-70.4 0-100.8zM612.8 230.4c-20.8-8-46.4 4.8-56 25.6L382.4 742.4c-8 20.8 4.8 46.4 25.6 56 4.8 0 8 4.8 12.8 4.8 17.6 0 33.6-12.8 38.4-30.4l179.2-491.2c8-20.8-4.8-46.4-25.6-51.2z" p-id="10622" fill="#ffffff"></path></svg>
+            <span>查看源码</span>
+        </div>
+        <div class="code-view">
+            <div class="close">
+                <svg t="1611633627816" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="9691" width="10" height="10"><path d="M589.704 501.674L998.27 93.107c20.652-20.653 20.652-54.556 0-75.209l-2.237-2.237c-20.652-20.652-54.556-20.652-75.208 0L512.258 424.745 103.691 15.489c-20.652-20.652-54.556-20.652-75.208 0l-2.238 2.237c-21.168 20.652-21.168 54.556 0 75.208l408.568 408.74L26.245 910.24c-20.652 20.652-20.652 54.556 0 75.208l2.238 2.238c20.652 20.652 54.556 20.652 75.208 0l408.567-408.568 408.568 408.568c20.652 20.652 54.556 20.652 75.208 0l2.237-2.238c20.652-20.652 20.652-54.556 0-75.208L589.704 501.674z" p-id="9692" fill="#d4d4d4"></path></svg>
+            </div>
+        </div>
+        <iframe name="demo" src="../html/datamap.html?file=datamap-0&scale=1" frameborder="0"></iframe>
+    </section>
+    <script>var require = { paths: { 'vs': '../plus/MonacoEditor/min/vs' } };</script>
+	<script src="../plus/MonacoEditor/min/vs/loader.js"></script>
+	<script src="../plus/MonacoEditor/min/vs/editor/editor.main.nls.js"></script>
+	<script src="../plus/MonacoEditor/min/vs/editor/editor.main.js"></script>
+    <script src="../js/index.js"></script>
+</body>
+</html>

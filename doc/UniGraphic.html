@@ -38,7 +38,7 @@
     
     <input type="text" id="nav-search" placeholder="Search" />
     
-    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="UniGraphic.html">UniGraphic</a><ul class='methods'><li data-type='method' style='display: none;'><a href="UniGraphic.html#.config">config</a></li><li data-type='method' style='display: none;'><a href="UniGraphic.html#addDragSource">addDragSource</a></li><li data-type='method' style='display: none;'><a href="UniGraphic.html#addFoldable">addFoldable</a></li><li data-type='method' style='display: none;'><a href="UniGraphic.html#cacheData">cacheData</a></li><li data-type='method' style='display: none;'><a href="UniGraphic.html#getData">getData</a></li><li data-type='method' style='display: none;'><a href="UniGraphic.html#getPosition">getPosition</a></li><li data-type='method' style='display: none;'><a href="UniGraphic.html#getSelectedCells">getSelectedCells</a></li><li data-type='method' style='display: none;'><a href="UniGraphic.html#setChildren">setChildren</a></li><li data-type='method' style='display: none;'><a href="UniGraphic.html#setData">setData</a></li><li data-type='method' style='display: none;'><a href="UniGraphic.html#setDetail">setDetail</a></li><li data-type='method' style='display: none;'><a href="UniGraphic.html#setOption">setOption</a></li><li data-type='method' style='display: none;'><a href="UniGraphic.html#updateData">updateData</a></li></ul></li></ul>
+    <h2><a href="index.html">首页</a></h2><h3>类</h3><ul><li><a href="UniGraphic.html">UniGraphic</a><ul class='methods'><li data-type='method' style='display: none;'><a href="UniGraphic.html#.config">config</a></li><li data-type='method' style='display: none;'><a href="UniGraphic.html#addDragSource">addDragSource</a></li><li data-type='method' style='display: none;'><a href="UniGraphic.html#addFoldable">addFoldable</a></li><li data-type='method' style='display: none;'><a href="UniGraphic.html#cacheData">cacheData</a></li><li data-type='method' style='display: none;'><a href="UniGraphic.html#getData">getData</a></li><li data-type='method' style='display: none;'><a href="UniGraphic.html#getPosition">getPosition</a></li><li data-type='method' style='display: none;'><a href="UniGraphic.html#getSelectedCells">getSelectedCells</a></li><li data-type='method' style='display: none;'><a href="UniGraphic.html#setChildren">setChildren</a></li><li data-type='method' style='display: none;'><a href="UniGraphic.html#setData">setData</a></li><li data-type='method' style='display: none;'><a href="UniGraphic.html#setDetail">setDetail</a></li><li data-type='method' style='display: none;'><a href="UniGraphic.html#setOption">setOption</a></li><li data-type='method' style='display: none;'><a href="UniGraphic.html#updateData">updateData</a></li></ul></li></ul>
 </nav>
 
 <div id="main">
@@ -546,6 +546,64 @@
 
 <div class="description usertext">
     <p>预加载的图是否已经加载完成</p>
+</div>
+
+
+
+
+
+
+
+
+        
+            
+<h4 class="name" id="waitingQueue"><span class="type-signature"></span>waitingQueue<span class="type-signature"></span></h4>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>被延迟的调用队列</p>
 </div>
 
 
@@ -5438,6 +5496,45 @@ save[成功后需要返回id, 以及instanceId]、connect[连线, type, id是必
 
         <tr>
             
+                <td class="name"><code>isVisible</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">boolean</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>true</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>是否可见</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
                 <td class="name"><code>source</code></td>
             
 
@@ -5979,7 +6076,7 @@ table/view/interface/task/sql/statement/kpi/quota/product/system/scheme/standard
                 </td>
             
 
-            <td class="description last"><p>是否展开节点详情 true 展开</p></td>
+            <td class="description last"><p>展开节点详情，仅true有效，且延迟到绘制完成才会执行</p></td>
         </tr>
 
     
@@ -6032,6 +6129,8 @@ table/view/interface/task/sql/statement/kpi/quota/product/system/scheme/standard
         
 
         
+        <th>Default</th>
+        
 
         <th class="last">Description</th>
     </tr>
@@ -6065,8 +6164,129 @@ table/view/interface/task/sql/statement/kpi/quota/product/system/scheme/standard
             
 
             
+                <td class="default">
+                
+                </td>
+            
 
             <td class="description last"><p>标题</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>isShow</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">boolean</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>false</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>是否显示详情，绘制时执行</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>isSearchable</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">boolean</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>true</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>是否可搜索</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>isSwitchable</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">boolean</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>true</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>是否可收起</p></td>
         </tr>
 
     
@@ -6095,6 +6315,10 @@ table/view/interface/task/sql/statement/kpi/quota/product/system/scheme/standard
                 </td>
             
 
+            
+                <td class="default">
+                
+                </td>
             
 
             <td class="description last"><p>子元素</p>
@@ -6348,6 +6572,10 @@ table/view/interface/task/sql/statement/kpi/quota/product/system/scheme/standard
             
 
             
+                <td class="default">
+                
+                </td>
+            
 
             <td class="description last"><p>子节点，数据结构同options.data.nodes</p></td>
         </tr>
@@ -6378,6 +6606,10 @@ table/view/interface/task/sql/statement/kpi/quota/product/system/scheme/standard
                 </td>
             
 
+            
+                <td class="default">
+                
+                </td>
             
 
             <td class="description last"><p>连线，与options.data.lines的属性相同</p></td>
@@ -6412,6 +6644,10 @@ table/view/interface/task/sql/statement/kpi/quota/product/system/scheme/standard
             
 
             
+                <td class="default">
+                
+                </td>
+            
 
             <td class="description last"><p>获取详情数据，把数据传给load(node, cb)的回调函数cb</p></td>
         </tr>
@@ -6444,6 +6680,10 @@ table/view/interface/task/sql/statement/kpi/quota/product/system/scheme/standard
                 </td>
             
 
+            
+                <td class="default">
+                
+                </td>
             
 
             <td class="description last"><p>右键菜单，不同状态里亦可定义独立的菜单</p>
@@ -7122,6 +7362,8 @@ table/view/interface/task/sql/statement/kpi/quota/product/system/scheme/standard
             
                 <td class="default">
                 
+                    <code>120</code>
+                
                 </td>
             
 
@@ -7158,6 +7400,8 @@ table/view/interface/task/sql/statement/kpi/quota/product/system/scheme/standard
 
             
                 <td class="default">
+                
+                    <code>3</code>
                 
                 </td>
             
@@ -7441,6 +7685,45 @@ _type_为连线的类型：default、circulation、inclusion等等自定义即�
             
 
             <td class="description last"><p>是否是有向线[有箭头]， 默认是</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>isVisible</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>true</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>是否可见</p></td>
         </tr>
 
     
@@ -8594,6 +8877,80 @@ _type_为连线的类型：default、circulation、inclusion等等自定义即�
 
         <tr>
             
+                <td class="name"><code>width</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"><p>宽度</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>lineHeight</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"><p>行高</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
                 <td class="name"><code>color</code></td>
             
 
@@ -8626,7 +8983,7 @@ _type_为连线的类型：default、circulation、inclusion等等自定义即�
                 </td>
             
 
-            <td class="description last"><p>标题</p></td>
+            <td class="description last"><p>颜色</p></td>
         </tr>
 
     
@@ -10215,7 +10572,7 @@ _type_为连线的类型：default、circulation、inclusion等等自定义即�
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.6</a> on Thu Dec 31 2020 11:23:01 GMT+0800 (中国标准时间) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.6</a> on Thu Jan 28 2021 09:13:17 GMT+0800 (中国标准时间) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
 </footer>
 
 <script>prettyPrint();</script>
