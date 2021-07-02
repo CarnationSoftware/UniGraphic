@@ -1,8 +1,10 @@
 {
+    "title": "全局视图",
     "nodes": [
         {
             "type": "product",
             "isGroup": true,
+            "isDraggable": false,
             "id": 1001,
             "normal": {
                 "title": "产品1",

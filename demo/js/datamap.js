@@ -19,8 +19,10 @@
     style: {
       // defaultColor: '#595857', // 主色
       // hoverColor: '#ddd', // 悬停色
-      // activeColor: '#000', // 活动色
-      warnColor: '#FF9900' // 警告色
+      // activeColor: '#ff1e00', // 活动色
+      activeColor: '#000',
+      // 活动色
+      warnColor: '#f8b13c' // 警告色
 
     }
   }); // 实例化图形工具
@@ -29,7 +31,11 @@
     graph: document.querySelector('#container')
   }); // 方便在console里查看
 
-  window.chart = chart; // 图形渲染模拟数据
+  window.chart = chart; // 水印图片对象
+
+  var waterMark = new Image();
+  waterMark.setAttribute('crossOrigin', 'Anonymous');
+  waterMark.src = './../img/name.png'; // 图形渲染模拟数据
 
   var options = {
     // 标题
@@ -84,17 +90,32 @@
       // （中心点上游支持向上游折叠；下游支持向下游折腾）
       centerFold: true,
       // 排列方向
-      // direction: 'left2right',
+      direction: 'left2right',
       // 单击延迟时间，以便等待双击，并阻断单击的触发
       clickDelay: 0,
       // 连线方式， 可选'drag' 'click'
       lineDrawingMode: 'drag',
       // 连线之间的间距，设置为0则相同关系的连线将重叠为1条线
-      // lineSpace: 3,
+      lineSpace: 3,
+      // lineSpace: [0, 3],
+      // 配置鼠标触边，按各个方向滚动
+      autoScroll: {
+        // 鼠标触发范围10或[10,20,30,10]，可以配四个方向一样，也可以单独配置[上，右，下，左]
+        range: [44 + 10, 10, 25 + 10, 10],
+        speed: 200,
+        // 速度，100/s
+        delay: 2000 // 延迟时间加速
+
+      },
       // 节点配置
       node: {
         // 应用到全部节点
         global: {
+          animate: {
+            name: 'beat',
+            duration: 2000 // iteration: 'infinite',
+
+          },
           // targetFoldable: true,
           // sourceFoldable: true,
           // 节点名称每行最大展示数，超出则换行
@@ -132,27 +153,31 @@
       },
       line: {
         "default": {
+          animate: {
+            name: 'trail',
+            duration: 2000 // iteration: 'infinite',
+
+          },
           style: {
             line: {
-              stroke: '#999',
+              // stroke: '#999',
               // lineDash: [4],
               linewidth: 1
             },
             highLine: {
-              stroke: '#000',
+              // stroke: '#000',
               linewidth: 1
             },
             arrow: {
-              stroke: '#999',
-              linewidth: 1,
-              fill: '#999'
+              // stroke: '#999',
+              linewidth: 1 // fill: '#999',
+
             }
           },
           // lineType: 'bezierCurve',
           // arrowType: ['diamond', 'sharpArrow'],
           // arrowType: 'sharpArrow', // taperedArrow、heavyArrow、sharpArrow
-          isResizable: false,
-          inAndOut: ['left', 'right'] // ['left', 'right']
+          isResizable: false // inAndOut: ['left', 'right'], // ['left', 'right']
 
         }
       }
@@ -196,6 +221,14 @@
       }, {
         name: 'zoomOut',
         title: '缩小'
+      }, {
+        name: 'undo',
+        title: '回退',
+        isActive: false
+      }, {
+        name: 'redo',
+        title: '前进',
+        isActive: false
       }, {
         name: 'outline',
         title: '缩略图',
@@ -322,6 +355,29 @@
         "float": 'right',
         title: '帮助'
       }]
+    },
+    // 水印信息
+    waterMark: {
+      // 可以是文本字符串，也可以是img
+      // content: waterMark,
+      content: 'UniGraphic',
+      position: [0, 0],
+      // 水印起始位置
+      rotate: 30,
+      // 旋转 0代表0°
+      repeat: {
+        x: true,
+        y: true
+      },
+      space: {
+        // 重复间距
+        right: 40,
+        bottom: 60
+      },
+      // 样式，同CanvasRenderingContext2D
+      style: {
+        fillStyle: 'rgba(0,0,255,0.5)'
+      }
     }
   }; // 节点详情字段提取方法
 

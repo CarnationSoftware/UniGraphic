@@ -1,4 +1,5 @@
 {
+	"title": "血统图演示示例",
 	"nodes": [{
 		"type": "table",
 		"id": "node-0",

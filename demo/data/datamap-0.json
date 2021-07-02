@@ -1,7 +1,9 @@
 {
+	"title": "数据地图演示示例",
 	"nodes": [{
 		"type": "table",
 		"id": "node-0",
+		"isDraggable": false,
 		"normal": {
 			"title": "act_evt_log",
 			"icon": null,
@@ -75,6 +77,7 @@
 	}, {
 		"type": "table",
 		"id": "node-1",
+		"isDraggable": true ,
 		"normal": {
 			"title": "act_ge_bytearray",
 			"icon": null,
