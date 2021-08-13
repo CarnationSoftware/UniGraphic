@@ -1,0 +1,760 @@
+{
+    "nodes": [
+        {
+            "type": "table",
+            "id": "node-0",
+            "normal": {
+                "title": "node-0",
+                "zhName": "节点-0",
+                "enName": "Node-0"
+            },
+            "detail": {
+                "title": "detail: node-0",
+                "items": [
+                    {
+                        "title": "ABC-DEF-GHI-node-0/0",
+                        "id": "node-0/0"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "standard",
+            "id": "node-1",
+            "normal": {
+                "title": "node-1",
+                "zhName": "节点-1",
+                "enName": "Node-1"
+            },
+            "detail": {
+                "title": "detail: node-1",
+                "items": [
+                    {
+                        "title": "ABC-DEF-GHI-node-1/0",
+                        "id": "node-1/0"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "standard",
+            "id": "node-2",
+            "normal": {
+                "title": "node-2",
+                "zhName": "节点-2",
+                "enName": "Node-2"
+            },
+            "detail": {
+                "title": "detail: node-2",
+                "items": [
+                    {
+                        "title": "ABC-DEF-GHI-node-2/0",
+                        "id": "node-2/0"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "standard",
+            "id": "node-3",
+            "normal": {
+                "title": "node-3",
+                "zhName": "节点-3",
+                "enName": "Node-3"
+            },
+            "detail": {
+                "title": "detail: node-3",
+                "items": [
+                    {
+                        "title": "ABC-DEF-GHI-node-3/0",
+                        "id": "node-3/0"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "standard",
+            "id": "node-4",
+            "normal": {
+                "title": "node-4",
+                "zhName": "节点-4",
+                "enName": "Node-4"
+            },
+            "detail": {
+                "title": "detail: node-4",
+                "items": [
+                    {
+                        "title": "ABC-DEF-GHI-node-4/0",
+                        "id": "node-4/0"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "standard",
+            "id": "node-5",
+            "normal": {
+                "title": "node-5",
+                "zhName": "节点-5",
+                "enName": "Node-5"
+            },
+            "detail": {
+                "title": "detail: node-5",
+                "items": [
+                    {
+                        "title": "ABC-DEF-GHI-node-5/0",
+                        "id": "node-5/0"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "statement",
+            "id": "node-6",
+            "normal": {
+                "title": "node-6",
+                "zhName": "节点-6",
+                "enName": "Node-6"
+            },
+            "detail": {
+                "title": "detail: node-6",
+                "items": [
+                    {
+                        "title": "ABC-DEF-GHI-node-6/0",
+                        "id": "node-6/0"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "statement",
+            "id": "node-7",
+            "normal": {
+                "title": "node-7",
+                "zhName": "节点-7",
+                "enName": "Node-7"
+            },
+            "detail": {
+                "title": "detail: node-7",
+                "items": [
+                    {
+                        "title": "ABC-DEF-GHI-node-7/0",
+                        "id": "node-7/0"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "statement",
+            "id": "node-8",
+            "normal": {
+                "title": "node-8",
+                "zhName": "节点-8",
+                "enName": "Node-8"
+            },
+            "detail": {
+                "title": "detail: node-8",
+                "items": [
+                    {
+                        "title": "ABC-DEF-GHI-node-8/0",
+                        "id": "node-8/0"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "statement",
+            "id": "node-9",
+            "normal": {
+                "title": "node-9",
+                "zhName": "节点-9",
+                "enName": "Node-9"
+            },
+            "detail": {
+                "title": "detail: node-9",
+                "items": [
+                    {
+                        "title": "ABC-DEF-GHI-node-9/0",
+                        "id": "node-9/0"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "statement",
+            "id": "node-10",
+            "normal": {
+                "title": "node-10",
+                "zhName": "节点-10",
+                "enName": "Node-10"
+            },
+            "detail": {
+                "title": "detail: node-10",
+                "items": [
+                    {
+                        "title": "ABC-DEF-GHI-node-10/0",
+                        "id": "node-10/0"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "statement",
+            "id": "node-11",
+            "normal": {
+                "title": "node-11",
+                "zhName": "节点-11",
+                "enName": "Node-11"
+            },
+            "detail": {
+                "title": "detail: node-11",
+                "items": [
+                    {
+                        "title": "ABC-DEF-GHI-node-11/0",
+                        "id": "node-11/0"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "statement",
+            "id": "node-12",
+            "normal": {
+                "title": "node-12",
+                "zhName": "节点-12",
+                "enName": "Node-12"
+            },
+            "detail": {
+                "title": "detail: node-12",
+                "items": [
+                    {
+                        "title": "ABC-DEF-GHI-node-12/0",
+                        "id": "node-12/0"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "statement",
+            "id": "node-13",
+            "normal": {
+                "title": "node-13",
+                "zhName": "节点-13",
+                "enName": "Node-13"
+            },
+            "detail": {
+                "title": "detail: node-13",
+                "items": [
+                    {
+                        "title": "ABC-DEF-GHI-node-13/0",
+                        "id": "node-13/0"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "statement",
+            "id": "node-14",
+            "normal": {
+                "title": "node-14",
+                "zhName": "节点-14",
+                "enName": "Node-14"
+            },
+            "detail": {
+                "title": "detail: node-14",
+                "items": [
+                    {
+                        "title": "ABC-DEF-GHI-node-14/0",
+                        "id": "node-14/0"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "statement",
+            "id": "node-15",
+            "normal": {
+                "title": "node-15",
+                "zhName": "节点-15",
+                "enName": "Node-15"
+            },
+            "detail": {
+                "title": "detail: node-15",
+                "items": [
+                    {
+                        "title": "ABC-DEF-GHI-node-15/0",
+                        "id": "node-15/0"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "schema",
+            "id": "node-16",
+            "normal": {
+                "title": "node-16",
+                "zhName": "节点-16",
+                "enName": "Node-16"
+            },
+            "detail": {
+                "title": "detail: node-16",
+                "items": [
+                    {
+                        "title": "ABC-DEF-GHI-node-16/0",
+                        "id": "node-16/0"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "schema",
+            "id": "node-17",
+            "normal": {
+                "title": "node-17",
+                "zhName": "节点-17",
+                "enName": "Node-17"
+            },
+            "detail": {
+                "title": "detail: node-17",
+                "items": [
+                    {
+                        "title": "ABC-DEF-GHI-node-17/0",
+                        "id": "node-17/0"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "schema",
+            "id": "node-18",
+            "normal": {
+                "title": "node-18",
+                "zhName": "节点-18",
+                "enName": "Node-18"
+            },
+            "detail": {
+                "title": "detail: node-18",
+                "items": [
+                    {
+                        "title": "ABC-DEF-GHI-node-18/0",
+                        "id": "node-18/0"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "schema",
+            "id": "node-19",
+            "normal": {
+                "title": "node-19",
+                "zhName": "节点-19",
+                "enName": "Node-19"
+            },
+            "detail": {
+                "title": "detail: node-19",
+                "items": [
+                    {
+                        "title": "ABC-DEF-GHI-node-19/0",
+                        "id": "node-19/0"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "schema",
+            "id": "node-20",
+            "normal": {
+                "title": "node-20",
+                "zhName": "节点-20",
+                "enName": "Node-20"
+            },
+            "detail": {
+                "title": "detail: node-20",
+                "items": [
+                    {
+                        "title": "ABC-DEF-GHI-node-20/0",
+                        "id": "node-20/0"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "schema",
+            "id": "node-21",
+            "normal": {
+                "title": "node-21",
+                "zhName": "节点-21",
+                "enName": "Node-21"
+            },
+            "detail": {
+                "title": "detail: node-21",
+                "items": [
+                    {
+                        "title": "ABC-DEF-GHI-node-21/0",
+                        "id": "node-21/0"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "schema",
+            "id": "node-22",
+            "normal": {
+                "title": "node-22",
+                "zhName": "节点-22",
+                "enName": "Node-22"
+            },
+            "detail": {
+                "title": "detail: node-22",
+                "items": [
+                    {
+                        "title": "ABC-DEF-GHI-node-22/0",
+                        "id": "node-22/0"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "schema",
+            "id": "node-23",
+            "normal": {
+                "title": "node-23",
+                "zhName": "节点-23",
+                "enName": "Node-23"
+            },
+            "detail": {
+                "title": "detail: node-23",
+                "items": [
+                    {
+                        "title": "ABC-DEF-GHI-node-23/0",
+                        "id": "node-23/0"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "schema",
+            "id": "node-24",
+            "normal": {
+                "title": "node-24",
+                "zhName": "节点-24",
+                "enName": "Node-24"
+            },
+            "detail": {
+                "title": "detail: node-24",
+                "items": [
+                    {
+                        "title": "ABC-DEF-GHI-node-24/0",
+                        "id": "node-24/0"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "schema",
+            "id": "node-25",
+            "normal": {
+                "title": "node-25",
+                "zhName": "节点-25",
+                "enName": "Node-25"
+            },
+            "detail": {
+                "title": "detail: node-25",
+                "items": [
+                    {
+                        "title": "ABC-DEF-GHI-node-25/0",
+                        "id": "node-25/0"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "schema",
+            "id": "node-26",
+            "normal": {
+                "title": "node-26",
+                "zhName": "节点-26",
+                "enName": "Node-26"
+            },
+            "detail": {
+                "title": "detail: node-26",
+                "items": [
+                    {
+                        "title": "ABC-DEF-GHI-node-26/0",
+                        "id": "node-26/0"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "schema",
+            "id": "node-27",
+            "normal": {
+                "title": "node-27",
+                "zhName": "节点-27",
+                "enName": "Node-27"
+            },
+            "detail": {
+                "title": "detail: node-27",
+                "items": [
+                    {
+                        "title": "ABC-DEF-GHI-node-27/0",
+                        "id": "node-27/0"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "schema",
+            "id": "node-28",
+            "normal": {
+                "title": "node-28",
+                "zhName": "节点-28",
+                "enName": "Node-28"
+            },
+            "detail": {
+                "title": "detail: node-28",
+                "items": [
+                    {
+                        "title": "ABC-DEF-GHI-node-28/0",
+                        "id": "node-28/0"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "schema",
+            "id": "node-29",
+            "normal": {
+                "title": "node-29",
+                "zhName": "节点-29",
+                "enName": "Node-29"
+            },
+            "detail": {
+                "title": "detail: node-29",
+                "items": [
+                    {
+                        "title": "ABC-DEF-GHI-node-29/0",
+                        "id": "node-29/0"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "schema",
+            "id": "node-30",
+            "normal": {
+                "title": "node-30",
+                "zhName": "节点-30",
+                "enName": "Node-30"
+            },
+            "detail": {
+                "title": "detail: node-30",
+                "items": [
+                    {
+                        "title": "ABC-DEF-GHI-node-30/0",
+                        "id": "node-30/0"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "schema",
+            "id": "node-31",
+            "normal": {
+                "title": "node-31",
+                "zhName": "节点-31",
+                "enName": "Node-31"
+            },
+            "detail": {
+                "title": "detail: node-31",
+                "items": [
+                    {
+                        "title": "ABC-DEF-GHI-node-31/0",
+                        "id": "node-31/0"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "schema",
+            "id": "node-32",
+            "normal": {
+                "title": "node-32",
+                "zhName": "节点-32",
+                "enName": "Node-32"
+            },
+            "detail": {
+                "title": "detail: node-32",
+                "items": [
+                    {
+                        "title": "ABC-DEF-GHI-node-32/0",
+                        "id": "node-32/0"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "schema",
+            "id": "node-33",
+            "normal": {
+                "title": "node-33",
+                "zhName": "节点-33",
+                "enName": "Node-33"
+            },
+            "detail": {
+                "title": "detail: node-33",
+                "items": [
+                    {
+                        "title": "ABC-DEF-GHI-node-33/0",
+                        "id": "node-33/0"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "schema",
+            "id": "node-34",
+            "normal": {
+                "title": "node-34",
+                "zhName": "节点-34",
+                "enName": "Node-34"
+            },
+            "detail": {
+                "title": "detail: node-34",
+                "items": [
+                    {
+                        "title": "ABC-DEF-GHI-node-34/0",
+                        "id": "node-34/0"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "schema",
+            "id": "node-35",
+            "normal": {
+                "title": "node-35",
+                "zhName": "节点-35",
+                "enName": "Node-35"
+            },
+            "detail": {
+                "title": "detail: node-35",
+                "items": [
+                    {
+                        "title": "ABC-DEF-GHI-node-35/0",
+                        "id": "node-35/0"
+                    }
+                ]
+            }
+        }
+    ],
+    "lines": [
+        {
+            "source": "node-1",
+            "target": "node-0"
+        },{
+            "source": "node-2",
+            "target": "node-0"
+        },{
+            "source": "node-3",
+            "target": "node-0"
+        },{
+            "source": "node-4",
+            "target": "node-0"
+        },{
+            "source": "node-5",
+            "target": "node-0"
+        },{
+            "source": "node-6",
+            "target": "node-1"
+        },{
+            "source": "node-7",
+            "target": "node-1"
+        },{
+            "source": "node-8",
+            "target": "node-2"
+        },{
+            "source": "node-9",
+            "target": "node-2"
+        },{
+            "source": "node-10",
+            "target": "node-3"
+        },{
+            "source": "node-11",
+            "target": "node-3"
+        },{
+            "source": "node-12",
+            "target": "node-4"
+        },{
+            "source": "node-13",
+            "target": "node-4"
+        },{
+            "source": "node-14",
+            "target": "node-5"
+        },{
+            "source": "node-15",
+            "target": "node-5"
+        },{
+            "source": "node-16",
+            "target": "node-6"
+        },{
+            "source": "node-17",
+            "target": "node-6"
+        },{
+            "source": "node-18",
+            "target": "node-7"
+        },{
+            "source": "node-19",
+            "target": "node-7"
+        },{
+            "source": "node-20",
+            "target": "node-8"
+        },{
+            "source": "node-21",
+            "target": "node-8"
+        },{
+            "source": "node-22",
+            "target": "node-9"
+        },{
+            "source": "node-23",
+            "target": "node-9"
+        },{
+            "source": "node-24",
+            "target": "node-10"
+        },{
+            "source": "node-25",
+            "target": "node-10"
+        },{
+            "source": "node-26",
+            "target": "node-11"
+        },{
+            "source": "node-27",
+            "target": "node-11"
+        },{
+            "source": "node-28",
+            "target": "node-12"
+        },{
+            "source": "node-29",
+            "target": "node-12"
+        },{
+            "source": "node-30",
+            "target": "node-13"
+        },{
+            "source": "node-31",
+            "target": "node-13"
+        },{
+            "source": "node-32",
+            "target": "node-14"
+        },{
+            "source": "node-33",
+            "target": "node-14"
+        },{
+            "source": "node-34",
+            "target": "node-15"
+        },{
+            "source": "node-35",
+            "target": "node-15"
+        }
+    ]
+}
